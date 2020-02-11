@@ -27,6 +27,8 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
+  res = hash[key]
+  res
 end
 
 def update_counting_hash(hash, key)
